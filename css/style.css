@@ -1,0 +1,318 @@
+.heading {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #777777;
+    margin-bottom: 20px;
+}
+
+.name {
+    height: 100px;
+    width: 200px;
+    background-color: #4aaaa5;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 300px;
+    font-size: 25px;
+    color: white;
+}
+
+.link1 {
+    color: black;
+    text-decoration: none;
+}
+
+.about {
+    margin-left: 1410px;
+    position: relative;
+    top: -49px;
+}
+.about:hover + .test1 {
+    display: block;
+}
+
+
+.portfolio {
+    margin-left: 1500px;
+    position: relative;
+    top: -65px;
+}
+
+.contact {
+    margin-left: 1600px;
+    position: relative;
+    top: -81px;
+}
+
+.body {
+    background-image: url("../images/pattern.png");
+}
+
+.content {
+    height: 600px;
+    width: 1375px;
+    background-color: #ffffff;
+    font-size: 25px;
+    color: #4aaaa5;
+    margin-left: 300px;
+    position: relative;
+    top: 100px;
+}
+
+.aboutme {
+    margin-left: 50px;
+    top: 10px;
+    position: relative;
+    font-weight: bold;
+}
+
+.image {
+    float: left;
+    margin-top: 50px;
+}
+
+.hr {
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.paragraph {
+    margin-top: 50px;
+}
+
+.paragraph2 {
+    color: #666666
+}
+
+.footer {
+    height: 75px;
+    width: 100%;
+    background-color: #666666;
+    position: relative;
+    top: 270px;
+    border-top-style: solid;
+    border-top-color: lightskyblue;
+    border-top-width: 3px;
+    
+}
+
+.copyright {
+    margin-left: 50%;
+}
+
+.color {
+    color: #666666
+}
+
+.name2 {
+    position: relative;
+    top: 50px;
+    margin-left: 100px;
+    display: block;
+    color: black;
+}
+
+.nameinput {
+    position: relative;
+    top: 50px;
+    display: block;
+    margin-left: 100px;
+    width: 1100px;
+}
+
+.mail {
+    position: relative;
+    top: 75px;
+    margin-left: 100px;
+    display: block;
+    color: black;
+}
+
+.mailinput {
+    position: relative;
+    top: 75px;
+    display: block;
+    margin-left: 100px;
+    width: 1100px;
+}
+
+.msg {
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+    display: block;
+    color: black
+}
+
+.msginput {
+    position: relative;
+    top: 120px;
+    display: block;
+    margin-left: 100px;
+    width: 1100px;
+    height: 200px;
+}
+
+.button {
+    position: relative;
+    top: 150px;
+    margin-left: 100px;
+}
+.submit {
+    height: 50px;
+    color: white;
+    background-color: #4aaaa5;
+    width: 100px;
+}
+
+
+.content2 {
+    position: relative;
+    top: 50px;
+    margin-left: 50px;
+}
+
+.hangman {
+    display: inline-block;
+}
+
+.hangmantxt {
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    text-align: center;
+    position: relative;
+    top: -75px;
+}
+
+.RPG {
+    display: inline-block;
+}
+
+.RPGtxt {
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    text-align: center;
+    position: relative;
+    top: -75px;
+}
+
+span {
+    position: relative;
+    top: 10px;
+}
+
+.trivia {
+    display: inline-block;
+}
+
+.triviatxt {
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    text-align: center;
+    position: relative;
+    top: -75px;
+}
+
+.rutgers {
+    display: inline-block;
+}
+
+.rutgerstxt {
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    text-align: center;
+    position: relative;
+    top: -75px;
+}
+
+.rps {
+    display: inline-block;
+}
+
+.rpstxt {
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: #4aaaa5;
+    text-align: center;
+    position: relative;
+    top: -75px;
+}
+@media (max-width: 980px) {
+    .content{
+        width: 600px;
+        margin-left: 200px;
+    }
+    .about {
+        margin-left: 700px;
+    }
+    .portfolio {
+        margin-left: 800px; 
+    }
+    .contact {
+        margin-left: 900px;
+    }
+    .name {
+        margin-left: 200px;
+    }
+    .footer {
+        top: 200px;
+    }
+    .content {
+        height: 800px;
+    }
+    .nameinput {
+        width: 400px;
+    }
+    .msginput {
+        width: 400px;
+    }
+    .mailinput {
+        width: 400px;
+    }
+@media (max-width: 760px) {
+    .content{
+        width: 600px;
+        margin-left: 200px;
+    }
+    .about {
+        margin-left: 700px;
+    }
+    .portfolio {
+        margin-left: 800px; 
+    }
+    .contact {
+        margin-left: 900px;
+    }
+    .name {
+        margin-left: 200px;
+    }
+    .footer {
+        top: 200px;
+    }
+    .content {
+        height: 800px;
+    }
+    .nameinput {
+        width: 400px;
+    }
+    .msginput {
+        width: 400px;
+    }
+    .mailinput {
+        width: 400px;
+    }
+}
