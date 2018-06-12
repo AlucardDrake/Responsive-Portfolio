@@ -251,7 +251,7 @@ span {
     position: relative;
     top: -75px;
 }
-@media (max-width: 980px) {
+@media screen and (max-width: 980px) {
     .content{
         width: 600px;
         margin-left: 200px;
@@ -269,7 +269,7 @@ span {
         margin-left: 200px;
     }
     .footer {
-        top: 200px;
+        
     }
     .content {
         height: 800px;
@@ -283,28 +283,31 @@ span {
     .mailinput {
         width: 400px;
     }
-@media (max-width: 760px) {
+}
+@media screen and (max-width: 760px) {
     .content{
         width: 600px;
         margin-left: 200px;
     }
     .about {
-        margin-left: 700px;
+        margin-left: 500px;
     }
     .portfolio {
-        margin-left: 800px; 
+        margin-left: 600px; 
     }
     .contact {
-        margin-left: 900px;
+        margin-left: 700px;
     }
     .name {
-        margin-left: 200px;
+        margin-left: 100px;
     }
     .footer {
-        top: 200px;
+        
     }
     .content {
         height: 800px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .nameinput {
         width: 400px;
@@ -315,4 +318,49 @@ span {
     .mailinput {
         width: 400px;
     }
+
+}
+@media screen and (max-width: 640px) {
+    .content{
+        width: 600px;
+        margin-left: 200px;
+    }
+    .about {
+        margin-left: 100px;
+        top: 20px;
+    }
+    .portfolio {
+        margin-left: 300px; 
+        top: 5px;
+    }
+    .contact {
+        margin-left: 500px;
+        margin-top: 70px;
+    }
+    .name {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .heading {
+        height: 150px;
+    }
+    .footer {
+        
+    }
+    .content {
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nameinput {
+        width: 400px;
+    }
+    .msginput {
+        width: 400px;
+    }
+    .mailinput {
+        width: 400px;
+    }
+
 }
